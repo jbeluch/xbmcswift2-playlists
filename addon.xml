@@ -1,0 +1,10 @@
+<addon id="script.module.xbmcswift2_playlists" name="xbmcswift2_playlists" provider-name="Jonathan Beluch (jbel)" version="0.1.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.xbmcswift2" version="2.4.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
